@@ -11,7 +11,7 @@ ROS package for controlling the suction cup which is connected to an arduino UNO
 ## **catkin_make your workspace**
 ## **To use the package**
 
-1. Include the launch file(**suction_cup.launch**) in the **launch** folder
+1. Include the launch file(**suction_cup.launch**) in the **launch** folder to your own launch file
 1. After launching the file, the suction_control_service is on. Call the service providing the request string:
   * **"power_on"**: Turn the power of the pump on;
   * **"power_off"**: Turn the power of the pump off;
