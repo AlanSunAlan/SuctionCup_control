@@ -13,10 +13,10 @@ ROS package for controlling the suction cup which is connected to an arduino UNO
 
 1. Include the launch file(**suction_cup.launch**) in the **launch** folder
 1. After launching the file, the suction_control_service is on. Call the service providing the request string:
-  1. **"power_on"**: Turn the power of the pump on;
-  1. **"power_off"**: Turn the power of the pump off;
-  1. **"suction_in"**: The suction cup begins to "breath in" air so that the object can attach to the cup
-  1. **"suction_still"**:Nearly useless now. The suction cup slightly blow some air out.
-  1. **"suction_out"**: The suction cup blows air out so that the object can be dettached from the cup.
+  * **"power_on"**: Turn the power of the pump on;
+  * **"power_off"**: Turn the power of the pump off;
+  * **"suction_in"**: The suction cup begins to "breath in" air so that the object can attach to the cup
+  * **"suction_still"**:Nearly useless now. The suction cup slightly blow some air out.
+  * **"suction_out"**: The suction cup blows air out so that the object can be dettached from the cup.
 
 
