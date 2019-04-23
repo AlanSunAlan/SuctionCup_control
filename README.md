@@ -3,5 +3,10 @@ ROS package for controlling the suction cup which is connected to an arduino UNO
 
 # *Installation Guide*
 ## *installing dependencies*
-### 1. Installing rosserial and rosserial_python:
+  run{
+    sudo apt-get install ros-kinetic-rosserial
+    sudo apt-get install ros-kinetic-rosserial
+  }
+## *clone the package to your workspace*
+
 
